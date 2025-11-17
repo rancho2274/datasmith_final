@@ -1,0 +1,718 @@
+{
+    "Maria Baker": {
+        "discharge_date": "2025-10-09",
+        "primary_diagnosis": "Kidney Stones (Nephrolithiasis)",
+        "medications": [
+            "Tamsulosin 0.4mg daily",
+            "Ibuprofen 600mg as needed for pain",
+            "Potassium citrate 10mEq twice daily"
+        ],
+        "dietary_restrictions": "High fluid intake (3L/day), low oxalate, limit sodium, moderate calcium",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "Severe flank pain, blood in urine, fever, inability to urinate, nausea/vomiting",
+        "discharge_instructions": "Drink plenty of water, strain urine for stones, follow-up in 2 weeks, emergency if unable to urinate",
+        "age": 42,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 2.1,
+            "eGFR": 51,
+            "potassium": 5.8,
+            "sodium": 137
+        }
+    },
+    "Karen Walker": {
+        "discharge_date": "2025-09-18",
+        "primary_diagnosis": "Diabetic Nephropathy",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Metformin 1000mg twice daily",
+            "Glipizide 5mg daily",
+            "Atorvastatin 20mg daily"
+        ],
+        "dietary_restrictions": "Diabetic diet, low sodium (2g/day), carbohydrate counting, limit processed foods",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "High blood sugar, protein in urine, swelling, vision changes, foot numbness",
+        "discharge_instructions": "Monitor blood sugar 4 times daily, check feet daily, A1C goal <7%, follow-up in 1 month",
+        "age": 53,
+        "gender": "Other",
+        "admission_reason": "Infection management",
+        "recent_labs": {
+            "creatinine": 6.92,
+            "eGFR": 38,
+            "potassium": 4.1,
+            "sodium": 141
+        }
+    },
+    "Ashley Harris": {
+        "discharge_date": "2025-10-12",
+        "primary_diagnosis": "Glomerulonephritis",
+        "medications": [
+            "Prednisone 60mg daily (tapering)",
+            "Mycophenolate 500mg twice daily",
+            "Lisinopril 10mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low protein during active phase, fluid restriction if edematous",
+        "follow_up": "Primary care in 2 weeks, Nephrology in 1 month",
+        "warning_signs": "Blood in urine, foamy urine, swelling, high blood pressure, fatigue",
+        "discharge_instructions": "Take immunosuppressants exactly as prescribed, monitor for infections, follow-up in 2 weeks, urgent care if fever",
+        "age": 56,
+        "gender": "Female",
+        "admission_reason": "Routine check-up",
+        "recent_labs": {
+            "creatinine": 4.34,
+            "eGFR": 13,
+            "potassium": 3.7,
+            "sodium": 135
+        }
+    },
+    "Elizabeth Roberts": {
+        "discharge_date": "2025-11-09",
+        "primary_diagnosis": "Kidney Transplant - Post-Operative",
+        "medications": [
+            "Tacrolimus 3mg twice daily",
+            "Mycophenolate 1000mg twice daily",
+            "Prednisone 20mg daily (tapering)",
+            "Valganciclovir 450mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), well-cooked foods only, avoid raw foods, adequate protein",
+        "follow_up": "Primary care in 2 weeks, Nephrology in 1 month",
+        "warning_signs": "Fever, decreased urine output, pain at transplant site, signs of rejection, infection",
+        "discharge_instructions": "Take immunosuppressants exactly on time, monitor for infections, avoid crowds, follow-up in 1 week, emergency contact for rejection signs",
+        "age": 78,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 3.66,
+            "eGFR": 59,
+            "potassium": 5.3,
+            "sodium": 139
+        }
+    },
+    "Nancy Williams": {
+        "discharge_date": "2025-11-07",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 5 (ESRD)",
+        "medications": [
+            "Amlodipine 5mg daily",
+            "Furosemide 40mg daily",
+            "Sevelamer 1600mg with meals",
+            "Erythropoietin injection twice weekly"
+        ],
+        "dietary_restrictions": "Strict fluid restriction (1L/day), low sodium (1.5g/day), low potassium, low phosphorus",
+        "follow_up": "Urgent follow-up in 3 days",
+        "warning_signs": "Severe shortness of breath, chest pain, confusion, no urine output, severe swelling",
+        "discharge_instructions": "Dialysis scheduled, strict fluid and diet compliance, weigh before and after dialysis, emergency contact ready",
+        "age": 30,
+        "gender": "Female",
+        "admission_reason": "Infection management",
+        "recent_labs": {
+            "creatinine": 6.69,
+            "eGFR": 31,
+            "potassium": 4.3,
+            "sodium": 145
+        }
+    },
+    "Anna Chen": {
+        "discharge_date": "2025-10-19",
+        "primary_diagnosis": "Hypertensive Nephropathy",
+        "medications": [
+            "Lisinopril 20mg daily",
+            "Amlodipine 10mg daily",
+            "Hydrochlorothiazide 25mg daily"
+        ],
+        "dietary_restrictions": "Strict low sodium (1.5g/day), DASH diet recommended, limit alcohol",
+        "follow_up": "Urgent follow-up in 3 days",
+        "warning_signs": "High blood pressure readings, headaches, vision changes, chest pain",
+        "discharge_instructions": "Monitor blood pressure twice daily, take medications at same time daily, follow-up in 2 weeks, lifestyle modifications",
+        "age": 59,
+        "gender": "Male",
+        "admission_reason": "Dialysis initiation"
+    },
+    "Margaret White": {
+        "discharge_date": "2025-10-01",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 5 (ESRD)",
+        "medications": [
+            "Amlodipine 5mg daily",
+            "Furosemide 40mg daily",
+            "Sevelamer 1600mg with meals",
+            "Erythropoietin injection twice weekly"
+        ],
+        "dietary_restrictions": "Strict fluid restriction (1L/day), low sodium (1.5g/day), low potassium, low phosphorus",
+        "follow_up": "Nephrology clinic in 1 week",
+        "warning_signs": "Severe shortness of breath, chest pain, confusion, no urine output, severe swelling",
+        "discharge_instructions": "Dialysis scheduled, strict fluid and diet compliance, weigh before and after dialysis, emergency contact ready",
+        "age": 37,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 7.18,
+            "eGFR": 53,
+            "potassium": 4.0,
+            "sodium": 141
+        }
+    },
+    "Emily Lopez": {
+        "discharge_date": "2025-11-12",
+        "primary_diagnosis": "Acute Kidney Injury (AKI) - Intrinsic",
+        "medications": [
+            "Prednisone 40mg daily (tapering)",
+            "Furosemide 40mg daily",
+            "Sodium bicarbonate 650mg twice daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, fluid restriction (1.5L/day)",
+        "follow_up": "Nephrology clinic in 1 month",
+        "warning_signs": "Decreased urine output, swelling, shortness of breath, dark urine",
+        "discharge_instructions": "Monitor urine output closely, take steroids as prescribed, follow-up in 1 week, urgent care if no urine for 12 hours",
+        "age": 73,
+        "gender": "Male",
+        "admission_reason": "Medication adjustment",
+        "recent_labs": {
+            "creatinine": 1.66,
+            "eGFR": 43,
+            "potassium": 4.5,
+            "sodium": 139
+        }
+    },
+    "Daniel Adams": {
+        "discharge_date": "2025-10-04",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 3b",
+        "medications": [
+            "Losartan 50mg daily",
+            "Furosemide 20mg daily",
+            "Calcium carbonate 500mg with meals"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low phosphorus, moderate protein",
+        "follow_up": "Nephrology clinic in 2 weeks",
+        "warning_signs": "Swelling, shortness of breath, decreased urine output, bone pain",
+        "discharge_instructions": "Monitor blood pressure, take phosphate binders with meals, weigh daily",
+        "age": 38,
+        "gender": "Other",
+        "admission_reason": "Medication adjustment",
+        "recent_labs": {
+            "creatinine": 3.69,
+            "eGFR": 23,
+            "potassium": 3.8,
+            "sodium": 145
+        }
+    },
+    "Anna Walker": {
+        "discharge_date": "2025-10-28",
+        "primary_diagnosis": "Acute Kidney Injury (AKI) - Prerenal",
+        "medications": [
+            "IV fluids completed",
+            "Furosemide 20mg twice daily",
+            "Monitor electrolytes"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), adequate hydration (2L/day unless restricted)",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "Decreased urine output, dizziness, rapid weight loss, dry mouth",
+        "discharge_instructions": "Monitor urine output, stay hydrated, follow-up in 1 week, repeat labs in 3 days",
+        "age": 36,
+        "gender": "Male",
+        "admission_reason": "Post-surgical care",
+        "recent_labs": {
+            "creatinine": 4.34,
+            "eGFR": 33,
+            "potassium": 3.6,
+            "sodium": 140
+        }
+    },
+    "Jane Mitchell": {
+        "discharge_date": "2025-11-08",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 3a",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Metformin 500mg twice daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), moderate protein (0.8g/kg/day)",
+        "follow_up": "Primary care in 2 weeks, Nephrology in 1 month",
+        "warning_signs": "Fatigue, swelling in ankles, changes in urination",
+        "discharge_instructions": "Monitor blood pressure daily, check blood sugar if diabetic, follow-up in 3 months",
+        "age": 36,
+        "gender": "Female",
+        "admission_reason": "Acute symptoms"
+    },
+    "Elizabeth Allen": {
+        "discharge_date": "2025-10-13",
+        "primary_diagnosis": "Acute Kidney Injury (AKI) - Intrinsic",
+        "medications": [
+            "Prednisone 40mg daily (tapering)",
+            "Furosemide 40mg daily",
+            "Sodium bicarbonate 650mg twice daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, fluid restriction (1.5L/day)",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "Decreased urine output, swelling, shortness of breath, dark urine",
+        "discharge_instructions": "Monitor urine output closely, take steroids as prescribed, follow-up in 1 week, urgent care if no urine for 12 hours",
+        "age": 43,
+        "gender": "Other",
+        "admission_reason": "Medication adjustment",
+        "recent_labs": {
+            "creatinine": 5.57,
+            "eGFR": 23,
+            "potassium": 3.5,
+            "sodium": 145
+        }
+    },
+    "John Hall": {
+        "discharge_date": "2025-10-18",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 3b",
+        "medications": [
+            "Losartan 50mg daily",
+            "Furosemide 20mg daily",
+            "Calcium carbonate 500mg with meals"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low phosphorus, moderate protein",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "Swelling, shortness of breath, decreased urine output, bone pain",
+        "discharge_instructions": "Monitor blood pressure, take phosphate binders with meals, weigh daily",
+        "age": 35,
+        "gender": "Female",
+        "admission_reason": "Worsening kidney function",
+        "recent_labs": {
+            "creatinine": 3.32,
+            "eGFR": 32,
+            "potassium": 6.2,
+            "sodium": 139
+        }
+    },
+    "David Scott": {
+        "discharge_date": "2025-09-25",
+        "primary_diagnosis": "Diabetic Nephropathy",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Metformin 1000mg twice daily",
+            "Glipizide 5mg daily",
+            "Atorvastatin 20mg daily"
+        ],
+        "dietary_restrictions": "Diabetic diet, low sodium (2g/day), carbohydrate counting, limit processed foods",
+        "follow_up": "Dialysis center evaluation in 1 week",
+        "warning_signs": "High blood sugar, protein in urine, swelling, vision changes, foot numbness",
+        "discharge_instructions": "Monitor blood sugar 4 times daily, check feet daily, A1C goal <7%, follow-up in 1 month",
+        "age": 47,
+        "gender": "Other",
+        "admission_reason": "Infection management"
+    },
+    "Laura Kim": {
+        "discharge_date": "2025-11-06",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 5 (ESRD)",
+        "medications": [
+            "Amlodipine 5mg daily",
+            "Furosemide 40mg daily",
+            "Sevelamer 1600mg with meals",
+            "Erythropoietin injection twice weekly"
+        ],
+        "dietary_restrictions": "Strict fluid restriction (1L/day), low sodium (1.5g/day), low potassium, low phosphorus",
+        "follow_up": "Nephrology clinic in 1 week",
+        "warning_signs": "Severe shortness of breath, chest pain, confusion, no urine output, severe swelling",
+        "discharge_instructions": "Dialysis scheduled, strict fluid and diet compliance, weigh before and after dialysis, emergency contact ready",
+        "age": 27,
+        "gender": "Female",
+        "admission_reason": "Post-surgical care"
+    },
+    "Susan Carter": {
+        "discharge_date": "2025-10-08",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 4",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Furosemide 40mg twice daily",
+            "Sevelamer 800mg with meals",
+            "Erythropoietin injection weekly"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, low phosphorus, fluid restriction (1.5L/day)",
+        "follow_up": "Nephrology clinic in 2 weeks",
+        "warning_signs": "Severe swelling, shortness of breath, decreased urine output, extreme fatigue, nausea",
+        "discharge_instructions": "Monitor blood pressure daily, weigh yourself daily, prepare for dialysis evaluation, take all medications with meals",
+        "age": 84,
+        "gender": "Other",
+        "admission_reason": "Worsening kidney function",
+        "recent_labs": {
+            "creatinine": 3.6,
+            "eGFR": 28,
+            "potassium": 3.7,
+            "sodium": 135
+        }
+    },
+    "Michelle Walker": {
+        "discharge_date": "2025-10-23",
+        "primary_diagnosis": "Urinary Tract Infection with Kidney Involvement",
+        "medications": [
+            "Ciprofloxacin 500mg twice daily for 7 days",
+            "Phenazopyridine 200mg three times daily as needed"
+        ],
+        "dietary_restrictions": "Increase fluid intake (2.5L/day), cranberry juice recommended, avoid irritants",
+        "follow_up": "Nephrology clinic in 1 month",
+        "warning_signs": "Fever, chills, back pain, burning urination, blood in urine, confusion (elderly)",
+        "discharge_instructions": "Complete full course of antibiotics, increase fluids, follow-up if symptoms persist, urgent care if fever >101F",
+        "age": 55,
+        "gender": "Female",
+        "admission_reason": "Post-surgical care"
+    },
+    "Daniel Carter": {
+        "discharge_date": "2025-11-09",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 5 (ESRD)",
+        "medications": [
+            "Amlodipine 5mg daily",
+            "Furosemide 40mg daily",
+            "Sevelamer 1600mg with meals",
+            "Erythropoietin injection twice weekly"
+        ],
+        "dietary_restrictions": "Strict fluid restriction (1L/day), low sodium (1.5g/day), low potassium, low phosphorus",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "Severe shortness of breath, chest pain, confusion, no urine output, severe swelling",
+        "discharge_instructions": "Dialysis scheduled, strict fluid and diet compliance, weigh before and after dialysis, emergency contact ready",
+        "age": 59,
+        "gender": "Female",
+        "admission_reason": "Acute symptoms"
+    },
+    "Linda Adams": {
+        "discharge_date": "2025-11-07",
+        "primary_diagnosis": "Kidney Transplant - Post-Operative",
+        "medications": [
+            "Tacrolimus 3mg twice daily",
+            "Mycophenolate 1000mg twice daily",
+            "Prednisone 20mg daily (tapering)",
+            "Valganciclovir 450mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), well-cooked foods only, avoid raw foods, adequate protein",
+        "follow_up": "Dialysis center evaluation in 1 week",
+        "warning_signs": "Fever, decreased urine output, pain at transplant site, signs of rejection, infection",
+        "discharge_instructions": "Take immunosuppressants exactly on time, monitor for infections, avoid crowds, follow-up in 1 week, emergency contact for rejection signs",
+        "age": 63,
+        "gender": "Other",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 3.37,
+            "eGFR": 49,
+            "potassium": 6.2,
+            "sodium": 135
+        }
+    },
+    "Emily Lee": {
+        "discharge_date": "2025-09-24",
+        "primary_diagnosis": "Polycystic Kidney Disease (PKD)",
+        "medications": [
+            "Tolvaptan 45mg twice daily",
+            "Lisinopril 10mg daily",
+            "Pain management as needed"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), adequate hydration (2.5L/day), avoid caffeine",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "Severe back/flank pain, blood in urine, high blood pressure, frequent UTIs",
+        "discharge_instructions": "Monitor blood pressure, stay well-hydrated, avoid contact sports, genetic counseling recommended, follow-up in 3 months",
+        "age": 55,
+        "gender": "Female",
+        "admission_reason": "Post-surgical care",
+        "recent_labs": {
+            "creatinine": 3.56,
+            "eGFR": 29,
+            "potassium": 5.7,
+            "sodium": 139
+        }
+    },
+    "Mark Kim": {
+        "discharge_date": "2025-09-18",
+        "primary_diagnosis": "Nephrotic Syndrome",
+        "medications": [
+            "Prednisone 1mg/kg daily",
+            "Furosemide 40mg daily",
+            "Atorvastatin 20mg daily",
+            "Warfarin 5mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (1.5g/day), low fat, moderate protein, fluid restriction (1L/day)",
+        "follow_up": "Nephrology clinic in 1 month",
+        "warning_signs": "Severe swelling (especially face and legs), foamy urine, weight gain, blood clots",
+        "discharge_instructions": "Weigh daily, monitor for blood clots, take anticoagulant as prescribed, follow-up in 1 week",
+        "age": 61,
+        "gender": "Male",
+        "admission_reason": "Dialysis initiation",
+        "recent_labs": {
+            "creatinine": 5.57,
+            "eGFR": 20,
+            "potassium": 4.6,
+            "sodium": 143
+        }
+    },
+    "Linda Chen": {
+        "discharge_date": "2025-09-27",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 4",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Furosemide 40mg twice daily",
+            "Sevelamer 800mg with meals",
+            "Erythropoietin injection weekly"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, low phosphorus, fluid restriction (1.5L/day)",
+        "follow_up": "Nephrology clinic in 1 week",
+        "warning_signs": "Severe swelling, shortness of breath, decreased urine output, extreme fatigue, nausea",
+        "discharge_instructions": "Monitor blood pressure daily, weigh yourself daily, prepare for dialysis evaluation, take all medications with meals",
+        "age": 62,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 7.09,
+            "eGFR": 48,
+            "potassium": 5.5,
+            "sodium": 141
+        }
+    },
+    "Charles Johnson": {
+        "discharge_date": "2025-09-19",
+        "primary_diagnosis": "Glomerulonephritis",
+        "medications": [
+            "Prednisone 60mg daily (tapering)",
+            "Mycophenolate 500mg twice daily",
+            "Lisinopril 10mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low protein during active phase, fluid restriction if edematous",
+        "follow_up": "Nephrology clinic in 2 weeks",
+        "warning_signs": "Blood in urine, foamy urine, swelling, high blood pressure, fatigue",
+        "discharge_instructions": "Take immunosuppressants exactly as prescribed, monitor for infections, follow-up in 2 weeks, urgent care if fever",
+        "age": 83,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms"
+    },
+    "David Mitchell": {
+        "discharge_date": "2025-09-16",
+        "primary_diagnosis": "Hypertensive Nephropathy",
+        "medications": [
+            "Lisinopril 20mg daily",
+            "Amlodipine 10mg daily",
+            "Hydrochlorothiazide 25mg daily"
+        ],
+        "dietary_restrictions": "Strict low sodium (1.5g/day), DASH diet recommended, limit alcohol",
+        "follow_up": "Nephrology clinic in 2 weeks",
+        "warning_signs": "High blood pressure readings, headaches, vision changes, chest pain",
+        "discharge_instructions": "Monitor blood pressure twice daily, take medications at same time daily, follow-up in 2 weeks, lifestyle modifications",
+        "age": 61,
+        "gender": "Other",
+        "admission_reason": "Post-surgical care",
+        "recent_labs": {
+            "creatinine": 4.25,
+            "eGFR": 13,
+            "potassium": 5.2,
+            "sodium": 143
+        }
+    },
+    "Sarah Mitchell": {
+        "discharge_date": "2025-09-26",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 5 (ESRD)",
+        "medications": [
+            "Amlodipine 5mg daily",
+            "Furosemide 40mg daily",
+            "Sevelamer 1600mg with meals",
+            "Erythropoietin injection twice weekly"
+        ],
+        "dietary_restrictions": "Strict fluid restriction (1L/day), low sodium (1.5g/day), low potassium, low phosphorus",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "Severe shortness of breath, chest pain, confusion, no urine output, severe swelling",
+        "discharge_instructions": "Dialysis scheduled, strict fluid and diet compliance, weigh before and after dialysis, emergency contact ready",
+        "age": 79,
+        "gender": "Other",
+        "admission_reason": "Post-surgical care",
+        "recent_labs": {
+            "creatinine": 6.84,
+            "eGFR": 16,
+            "potassium": 6.1,
+            "sodium": 136
+        }
+    },
+    "Jessica Doe": {
+        "discharge_date": "2025-10-21",
+        "primary_diagnosis": "Nephrotic Syndrome",
+        "medications": [
+            "Prednisone 1mg/kg daily",
+            "Furosemide 40mg daily",
+            "Atorvastatin 20mg daily",
+            "Warfarin 5mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (1.5g/day), low fat, moderate protein, fluid restriction (1L/day)",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "Severe swelling (especially face and legs), foamy urine, weight gain, blood clots",
+        "discharge_instructions": "Weigh daily, monitor for blood clots, take anticoagulant as prescribed, follow-up in 1 week",
+        "age": 58,
+        "gender": "Other",
+        "admission_reason": "Routine check-up"
+    },
+    "Chris Brown": {
+        "discharge_date": "2025-09-25",
+        "primary_diagnosis": "Polycystic Kidney Disease (PKD)",
+        "medications": [
+            "Tolvaptan 45mg twice daily",
+            "Lisinopril 10mg daily",
+            "Pain management as needed"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), adequate hydration (2.5L/day), avoid caffeine",
+        "follow_up": "Nephrology clinic in 2 weeks",
+        "warning_signs": "Severe back/flank pain, blood in urine, high blood pressure, frequent UTIs",
+        "discharge_instructions": "Monitor blood pressure, stay well-hydrated, avoid contact sports, genetic counseling recommended, follow-up in 3 months",
+        "age": 80,
+        "gender": "Female",
+        "admission_reason": "Acute symptoms"
+    },
+    "Robert Hall": {
+        "discharge_date": "2025-10-22",
+        "primary_diagnosis": "Hypertensive Nephropathy",
+        "medications": [
+            "Lisinopril 20mg daily",
+            "Amlodipine 10mg daily",
+            "Hydrochlorothiazide 25mg daily"
+        ],
+        "dietary_restrictions": "Strict low sodium (1.5g/day), DASH diet recommended, limit alcohol",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "High blood pressure readings, headaches, vision changes, chest pain",
+        "discharge_instructions": "Monitor blood pressure twice daily, take medications at same time daily, follow-up in 2 weeks, lifestyle modifications",
+        "age": 54,
+        "gender": "Female",
+        "admission_reason": "Medication adjustment",
+        "recent_labs": {
+            "creatinine": 7.49,
+            "eGFR": 12,
+            "potassium": 4.8,
+            "sodium": 139
+        }
+    },
+    "Daniel Miller": {
+        "discharge_date": "2025-09-17",
+        "primary_diagnosis": "Urinary Tract Infection with Kidney Involvement",
+        "medications": [
+            "Ciprofloxacin 500mg twice daily for 7 days",
+            "Phenazopyridine 200mg three times daily as needed"
+        ],
+        "dietary_restrictions": "Increase fluid intake (2.5L/day), cranberry juice recommended, avoid irritants",
+        "follow_up": "Nephrology clinic in 1 week",
+        "warning_signs": "Fever, chills, back pain, burning urination, blood in urine, confusion (elderly)",
+        "discharge_instructions": "Complete full course of antibiotics, increase fluids, follow-up if symptoms persist, urgent care if fever >101F",
+        "age": 57,
+        "gender": "Female",
+        "admission_reason": "Dialysis initiation",
+        "recent_labs": {
+            "creatinine": 2.63,
+            "eGFR": 25,
+            "potassium": 5.3,
+            "sodium": 137
+        }
+    },
+    "Margaret King": {
+        "discharge_date": "2025-10-22",
+        "primary_diagnosis": "Kidney Transplant - Post-Operative",
+        "medications": [
+            "Tacrolimus 3mg twice daily",
+            "Mycophenolate 1000mg twice daily",
+            "Prednisone 20mg daily (tapering)",
+            "Valganciclovir 450mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), well-cooked foods only, avoid raw foods, adequate protein",
+        "follow_up": "Transplant clinic in 2 weeks",
+        "warning_signs": "Fever, decreased urine output, pain at transplant site, signs of rejection, infection",
+        "discharge_instructions": "Take immunosuppressants exactly on time, monitor for infections, avoid crowds, follow-up in 1 week, emergency contact for rejection signs",
+        "age": 67,
+        "gender": "Female",
+        "admission_reason": "Medication adjustment",
+        "recent_labs": {
+            "creatinine": 3.81,
+            "eGFR": 37,
+            "potassium": 4.5,
+            "sodium": 135
+        }
+    },
+    "Robert Davis": {
+        "discharge_date": "2025-10-16",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 4",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Furosemide 40mg twice daily",
+            "Sevelamer 800mg with meals",
+            "Erythropoietin injection weekly"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, low phosphorus, fluid restriction (1.5L/day)",
+        "follow_up": "Primary care in 2 weeks, Nephrology in 1 month",
+        "warning_signs": "Severe swelling, shortness of breath, decreased urine output, extreme fatigue, nausea",
+        "discharge_instructions": "Monitor blood pressure daily, weigh yourself daily, prepare for dialysis evaluation, take all medications with meals",
+        "age": 79,
+        "gender": "Male",
+        "admission_reason": "Worsening kidney function",
+        "recent_labs": {
+            "creatinine": 3.15,
+            "eGFR": 39,
+            "potassium": 5.7,
+            "sodium": 145
+        }
+    },
+    "Mark Young": {
+        "discharge_date": "2025-09-21",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 4",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Furosemide 40mg twice daily",
+            "Sevelamer 800mg with meals",
+            "Erythropoietin injection weekly"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low potassium, low phosphorus, fluid restriction (1.5L/day)",
+        "follow_up": "Primary care in 2 weeks, Nephrology in 1 month",
+        "warning_signs": "Severe swelling, shortness of breath, decreased urine output, extreme fatigue, nausea",
+        "discharge_instructions": "Monitor blood pressure daily, weigh yourself daily, prepare for dialysis evaluation, take all medications with meals",
+        "age": 60,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms"
+    },
+    "Michelle Hall": {
+        "discharge_date": "2025-09-16",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 3b",
+        "medications": [
+            "Losartan 50mg daily",
+            "Furosemide 20mg daily",
+            "Calcium carbonate 500mg with meals"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low phosphorus, moderate protein",
+        "follow_up": "Urgent follow-up in 3 days",
+        "warning_signs": "Swelling, shortness of breath, decreased urine output, bone pain",
+        "discharge_instructions": "Monitor blood pressure, take phosphate binders with meals, weigh daily",
+        "age": 60,
+        "gender": "Male",
+        "admission_reason": "Acute symptoms",
+        "recent_labs": {
+            "creatinine": 5.86,
+            "eGFR": 49,
+            "potassium": 5.6,
+            "sodium": 135
+        }
+    },
+    "Steven Harris": {
+        "discharge_date": "2025-10-18",
+        "primary_diagnosis": "Glomerulonephritis",
+        "medications": [
+            "Prednisone 60mg daily (tapering)",
+            "Mycophenolate 500mg twice daily",
+            "Lisinopril 10mg daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), low protein during active phase, fluid restriction if edematous",
+        "follow_up": "Urgent follow-up in 3 days",
+        "warning_signs": "Blood in urine, foamy urine, swelling, high blood pressure, fatigue",
+        "discharge_instructions": "Take immunosuppressants exactly as prescribed, monitor for infections, follow-up in 2 weeks, urgent care if fever",
+        "age": 67,
+        "gender": "Male",
+        "admission_reason": "Post-surgical care"
+    },
+    "Paul Kim": {
+        "discharge_date": "2025-10-03",
+        "primary_diagnosis": "Chronic Kidney Disease Stage 3a",
+        "medications": [
+            "Lisinopril 10mg daily",
+            "Metformin 500mg twice daily"
+        ],
+        "dietary_restrictions": "Low sodium (2g/day), moderate protein (0.8g/kg/day)",
+        "follow_up": "Nephrology clinic in 3 months",
+        "warning_signs": "Fatigue, swelling in ankles, changes in urination",
+        "discharge_instructions": "Monitor blood pressure daily, check blood sugar if diabetic, follow-up in 3 months",
+        "age": 51,
+        "gender": "Male",
+        "admission_reason": "Post-surgical care",
+        "recent_labs": {
+            "creatinine": 4.04,
+            "eGFR": 16,
+            "potassium": 5.9,
+            "sodium": 138
+        }
+    }
+}

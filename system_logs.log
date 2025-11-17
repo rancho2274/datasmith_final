@@ -1,0 +1,23 @@
+2025-11-17 09:38:55,303 - SystemFlow - INFO - SYSTEM INITIALIZED: Comprehensive logging started.
+2025-11-17 09:39:26,387 - SystemFlow - INFO - Attempting app.invoke(...) with recursion limit
+2025-11-17 09:39:26,388 - SystemFlow - INFO - AGENT: Receptionist activated.
+2025-11-17 09:39:28,456 - SystemFlow.database_access - INFO - Attempting to retrieve report for: maria baker
+2025-11-17 09:39:28,457 - SystemFlow.database_access - INFO - SUCCESS: Report retrieved for Maria Baker.
+2025-11-17 09:39:31,516 - SystemFlow - INFO - PATIENT REPORT STORED: Retrieved report for Maria Baker
+2025-11-17 09:39:50,485 - SystemFlow - INFO - Attempting app.invoke(...) with recursion limit
+2025-11-17 09:39:50,486 - SystemFlow - INFO - AGENT: Receptionist activated.
+2025-11-17 09:39:50,486 - SystemFlow - INFO - Heuristic: Detected medical question in Receptionist - routing to Clinical Agent.
+2025-11-17 09:39:50,487 - SystemFlow - INFO - AGENT: Clinical Agent activated.
+2025-11-17 09:39:53,120 - SystemFlow - INFO - CLINICAL INTERACTION: User query='tell me my dietary restrictions' | Response generated | Length=475 chars
+2025-11-17 09:41:58,371 - SystemFlow - INFO - Attempting app.invoke(...) with recursion limit
+2025-11-17 09:41:58,372 - SystemFlow - INFO - AGENT: Receptionist activated.
+2025-11-17 09:41:58,373 - SystemFlow - INFO - Heuristic: Detected medical question in Receptionist - routing to Clinical Agent.
+2025-11-17 09:41:58,374 - SystemFlow - INFO - AGENT: Clinical Agent activated.
+2025-11-17 09:42:03,218 - SystemFlow - INFO - CLINICAL INTERACTION: User query='I'm having swelling in my legs. Should I be worried?"' | Response generated | Length=789 chars
+2025-11-17 09:42:19,954 - SystemFlow - INFO - Attempting app.invoke(...) with recursion limit
+2025-11-17 09:42:19,955 - SystemFlow - INFO - AGENT: Receptionist activated.
+2025-11-17 09:42:21,205 - SystemFlow - INFO - HANDOFF: Receptionist -> Clinical Agent
+2025-11-17 09:42:21,207 - SystemFlow - INFO - AGENT: Clinical Agent activated.
+2025-11-17 09:42:23,654 - SystemFlow.database_access - INFO - WEB SEARCH: Attempting search for query: 'management of leg swelling in patients with kidney disease'
+2025-11-17 09:42:25,440 - SystemFlow.database_access - INFO - WEB SEARCH SUCCESS: Results obtained.
+2025-11-17 09:42:27,898 - SystemFlow - INFO - CLINICAL INTERACTION: User query='okay lets do it' | Response generated | Length=812 chars
