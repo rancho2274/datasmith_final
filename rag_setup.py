@@ -1,26 +1,19 @@
-# rag_setup.py  — RAG implementation (PDF or TXT) with LLM for answer generation
 import os
 from typing import Dict
 from dotenv import load_dotenv
 load_dotenv()
 
-# Document loader / chunker / embeddings / vectorstore
-# Prefer newer loader names if available
 try:
-    # LangChain v0.0x style import
     from langchain.document_loaders import PyPDFLoader, TextLoader
 except Exception:
-    # Fallbacks (community packages)
     try:
         from langchain_community.document_loaders import PyPDFLoader, TextLoader
     except Exception:
-        # Last resort: TextLoader only (PDF will not be supported)
         PyPDFLoader = None
         from langchain_community.document_loaders import TextLoader
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# Embeddings and Chroma
 try:
     from langchain_huggingface import HuggingFaceEmbeddings
 except ImportError:
@@ -34,11 +27,10 @@ except ImportError:
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
-# sensible defaults (you can override via setup_rag_retriever params)
 DEFAULT_SOURCE_FILE_TXT = "nephrology_reference.txt"
 DEFAULT_SOURCE_FILE_PDF = "nephrology_reference.pdf"
 CHROMA_DB_PATH = "chroma_db"
-EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # compact and effective
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 RAG_LLM = ChatOpenAI(
     model=os.getenv("OPENAI_MODEL", "gpt-3.5-turbo"),
@@ -86,7 +78,7 @@ class SimpleRetrievalChain:
                 content = d.content
             else:
                 content = str(d)
-            context_pieces.append(f"[Section {i}]\n{content[:2000]}")  # trim very long pieces in prompt
+            context_pieces.append(f"[Section {i}]\n{content[:2000]}")
 
         context = "\n\n---\n\n".join(context_pieces)
 
@@ -115,11 +107,6 @@ def _load_documents_from_file(source_file: str):
     return documents
 
 def setup_rag_retriever(source_file: str = None, persist_directory: str = CHROMA_DB_PATH, rebuild: bool = False, chunk_size: int = 1000, chunk_overlap: int = 100):
-    """
-    Build (or load) the Chroma vectorstore and return a SimpleRetrievalChain.
-    - source_file can be a .pdf or .txt path. If None: tries nephrology_reference.pdf then .txt.
-    - rebuild=True forces re-ingest and overwrite of the chroma DB.
-    """
     if source_file is None:
         if os.path.exists(DEFAULT_SOURCE_FILE_PDF):
             source_file = DEFAULT_SOURCE_FILE_PDF
@@ -129,7 +116,6 @@ def setup_rag_retriever(source_file: str = None, persist_directory: str = CHROMA
     if not os.path.exists(source_file):
         raise FileNotFoundError(f"RAG source file not found: {source_file}")
 
-    # Load documents (PDF or TXT)
     documents = _load_documents_from_file(source_file)
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
@@ -137,7 +123,6 @@ def setup_rag_retriever(source_file: str = None, persist_directory: str = CHROMA
 
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
 
-    # Create or load Chroma vectorstore
     if os.path.exists(persist_directory) and not rebuild:
         print(f"Loading existing Chroma DB from: {persist_directory}")
         vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
@@ -153,5 +138,4 @@ def setup_rag_retriever(source_file: str = None, persist_directory: str = CHROMA
     retrieval_chain = SimpleRetrievalChain(vectorstore, RAG_LLM, chunk_size=chunk_size, k=3)
     return retrieval_chain
 
-# Do NOT run expensive setup on import.
 RAG_RETRIEVAL_CHAIN = None
